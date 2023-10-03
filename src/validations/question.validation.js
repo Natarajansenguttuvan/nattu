@@ -8,8 +8,8 @@ const alternatives = Joi.object().keys({
   
 const createQuestion = {
   body: Joi.object().keys({
-    description: Joi.string().required(),
-    alternatives: Joi.array().items(alternatives).required()
+    question: Joi.string().required(),
+    options: Joi.array().items(alternatives).required()
   }),
 };
 

@@ -2,8 +2,8 @@ const mongoose = require('mongoose')
 const { toJSON } = require('./plugins');
 
 const QuestionSchema = new mongoose.Schema({
-    description: String,
-    alternatives: [
+    question: String,
+    options: [
         {
             text: {
                 type: String,
