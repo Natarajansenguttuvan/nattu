@@ -7,7 +7,6 @@ const createQuestion = catchAsync(async (req, res) => {
   res.status(httpStatus.CREATED).send(user);
 });
 
-
 module.exports = {
-    createQuestion,
+  createQuestion,
 };

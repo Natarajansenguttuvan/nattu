@@ -19,7 +19,7 @@ const defaultRoutes = [
   {
     path: '/question',
     route: questionRoute,
-  }
+  },
 ];
 
 const devRoutes = [
